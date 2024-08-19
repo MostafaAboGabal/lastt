@@ -1,0 +1,157 @@
+/*start box */
+.d-flex{
+    display: flex;
+}
+.d-block{
+    display: block;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.d-grid{
+    display: grid;
+}
+.gap-20{
+    gap: 20px;
+}
+@media (max-width: 767px){
+    .block-mobile{
+        display: block;
+    }
+    .hide-mobile{
+        display: none;
+    }
+}
+/*start padding magin*/
+.p-20{
+    padding: 20px;
+}
+.p-10{
+    padding: 10px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pr-10{
+    padding-right: 10px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pl-15{
+    padding-left: 15px;
+}
+.m-20{
+    margin: 20px;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.w-full{
+    width:100%;
+}
+.w-fit{
+    width: fit-content;
+}
+.w-hun{
+    width: 100px;
+}
+.h-full{
+    height: 100%;
+}
+/*start color*/
+.bg-white{
+    background-color: white;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-red{
+    background-color: red;
+}
+.c-black{
+    color: black;
+}
+.c-blue{
+    color: blue;
+}
+.c-red{
+    color: red;
+}
+.c-orange{
+    color: orange;
+}
+.c-green{
+    color: green;
+}
+.c-grey{
+color: var(--grey-color);
+}
+.c-white{
+    color: white;
+}
+/*start position*/
+.p-relative{
+    position: relative;
+}
+/*sTART FONT*/
+.txt-c{
+    text-align: center;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.fs-14{
+    font-size: 14px;
+}
+.b-none{
+    border: none;
+}
+.rad-6{
+    border-radius: 6px;
+}
+.rad-half{
+    border-radius: 50%;
+}
+/*start componet*/
+.center-flex{
+    align-items: center;
+    display: flex;
+    justify-content: center;  
+}
+.between-flex{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-shape{
+    padding: 4px 10px;
+    border-radius: 6px;
+}
